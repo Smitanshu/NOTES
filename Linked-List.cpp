@@ -6,12 +6,12 @@ public:
     int data;
     Node *next;
 
-    Node()
+    Node() //Default CTOR:
     {
         cout << "Default constructor called :" << endl;
         this->next = NULL;
     }
-    Node(int input1)
+    Node(int input1) //Paramete
     {
         cout << "Parameterized ctor called :";
         this->data = data;
