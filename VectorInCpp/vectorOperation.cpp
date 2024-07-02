@@ -1,3 +1,14 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+void print(vector<int>&input){
+
+    for(auto it:input){
+        cout<<it<<" ";
+    }
+}
+
 int main()
 {
 
@@ -7,6 +18,8 @@ int main()
     cout << "Pushing element at specific postion" << endl;
     print(nums);
     cout << endl;
+
+    cout<<"For stop condition enter -1"<<endl;;
     while (index >= 0)
     {
         cout << "Enter index :";
@@ -16,6 +29,7 @@ int main()
             cout << "Enter number :";
             cin >> value;
             nums.insert(nums.begin() + index, value);
+               
         }
     }
     print(nums);
