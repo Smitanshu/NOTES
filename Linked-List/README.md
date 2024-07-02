@@ -40,12 +40,11 @@ print funtion :
 
 ```cpp
 #include<iostream>
-usingn namespace std;
-
+using namespace std;
 void printList(Node* head) {
     Node* temp = head;
     while (temp != NULL) {
-        std::cout << temp->data << " ";
+        cout << temp->data << " ";
         temp = temp->next;
     }
     std::cout << std::endl;

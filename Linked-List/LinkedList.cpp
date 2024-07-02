@@ -20,19 +20,20 @@ public:
     }
 };
 
-//Insertion at head:
-void insertAtHead(Node*&head, int input){
-    int count=0;
-    cout<<"Inserting at Head :"<<count<<endl;
+// Insertion at head:
+void insertAtHead(Node *&head, int input)
+{
+    int count = 0;
+    cout << "Inserting at Head :" << count << endl;
 
-    //create new node 
-    Node * newNode=new Node(input);
-    
-    //
-   newNode->next=head;
+    // create new node
+    Node *newNode = new Node(input);
 
-   head=newNode;
+    // Pointing newNode to head node
+    newNode->next = head;
 
+    //Change head  to newNode.
+    head = newNode;
 }
 
 void print(Node *head)
@@ -67,24 +68,23 @@ int main()
     eighth->next = ninth;
     ninth->next = tenth;
 
-    
-Node *head=first;
-insertAtHead(head, 5);
-insertAtHead(head, 4);
-insertAtHead(head, 3);
-insertAtHead(head, 2);
-insertAtHead(head, 1);
+    Node *head = first;
+    insertAtHead(head, 5);
+    insertAtHead(head, 4);
+    insertAtHead(head, 3);
+    insertAtHead(head, 2);
+    insertAtHead(head, 1);
 
     print(head);
 
     return 0;
 }
 /*
-Note: 
+Note:
 1.While printing the Linked-List dont use the original pointer of Head Node,
   create temp node and then print.
 
-2.While Inserting node pass the always pass  head using reference. 
+2.While Inserting node pass the always pass  head using reference.
 
 3.Steps for Inserting node;
   -
