@@ -1,17 +1,8 @@
-package Java;
-
 public class mcq {
-    public static void main(String[] args) {
-        System.out.println(args[0]);
-
+     public static  void main(String[] args) {
+         double len= args.length;
+       System.out.println("Length :"+len);
     }
 }
-/*
- * public class mcq {
- * public static void main(){
- * System.out.println("Welcome");
- * }
- * 
- * }
- * 
- */
+
+ 
