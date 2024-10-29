@@ -1,8 +1,6 @@
 package Bitwise;
 import java.util.Scanner;
 public class BinaryString {
-
-
     public static int convert(String str) {
         int result = str.charAt(0) - 'a';
         for (int i = 1; i < str.length(); i = i + 2) {
@@ -19,9 +17,7 @@ public class BinaryString {
         }
         return result;
     }
-
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
