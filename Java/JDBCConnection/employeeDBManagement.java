@@ -1,7 +1,5 @@
 package JDBCConnection;
-
 import java.sql.*;
-
 public class employeeDBManagement {
 
     public static void main(String[] args) throws ClassNotFoundException {
