@@ -1,12 +1,17 @@
 package Literals;
-
 public class LiteralsDemo {
     public static void main(String[] args) {
-
-
-        //  float f=123.456;
-        float g=123.456F;
-        System.out.println(g);
+        int x=0;
+        int y=1;
+        if(false){
+            System.out.println("hello");
+        }else{
+            if (true){
+                System.out.println("Smitanshu");
+            }
+        }
+  char ch=19710;
+        System.out.println(ch);
 
     }
 }
