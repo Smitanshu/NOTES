@@ -6,6 +6,6 @@ public class DemoStringLiterals {
 
 
 
-        //The String which located in the double quote is called as String .
+        //The String which located in the double quote is called as String Literal.
     }
 }

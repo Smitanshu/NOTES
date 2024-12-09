@@ -1,17 +1,17 @@
 package JDBCConnection;
 import java.sql.*;
 public class employeeDBManagement {
-
     public static void main(String[] args) throws ClassNotFoundException {
         String url = "jdbc:mysql://localhost:3306/tempdb";
-        String username = "root";
-        String password = "Admin@123";
+        String username ="root";
+        String password ="Admin@123";
         String query = "select * from employees;";
+
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Driver loaded Successfully!!!!");
-        } catch (Exception e) {
+        }catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
@@ -51,6 +51,9 @@ public class employeeDBManagement {
         }
     }
 }
+
+
+
 /*
 
 Syntax:
