@@ -3,7 +3,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.*;
 
-
 public class JDBCConnecting {
     private static final String url = "jdbc:mysql://localhost:3306/mydb";
     private static final String userName = "root";

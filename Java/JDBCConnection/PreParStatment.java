@@ -1,8 +1,10 @@
 package JDBCConnection;
 
-public class PreparedStatement {
+
+
+public class PreParStatment {
     public static void main(String[] args) {
-        System.out.println("Hey!!!!");
+
 
     }
 }
